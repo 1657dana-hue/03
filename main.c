@@ -2,14 +2,13 @@
 
 int main(void)
 {
-    char c;
+    int a;
+    int b;
 
-    printf("input a alphabet :");
-    scanf("%c", &c);
+    printf("input two integers :");
+    scanf("%d %d", &a, &b);
 
-    c = c + 1;
-
-    printf("The next alphabet is %c\n", c);
+    printf("The result is %f\n", (float)a / b);
 
     return 0;
 }
